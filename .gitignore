@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# 虚拟环境
+venv/
+env/
+myenv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 环境变量（敏感信息）
+.env
+
+# 素材和导出视频（体积大，不需要提交）
+coze_workflow_works/
+exported_videos/
+downloads/
+
+# BGM（体积大）
+bgm/
+
+# 数据文件（保留示例）
+data/generated_by_*.json
+data/*.json
+!data/example.json
+
+# 截图
+screenshots/
+
+# 生成的数据文件
+*_failed_indices.json
+
+# 日志
+logs/
+
+# 临时数据
+tmp_data/

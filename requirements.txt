@@ -1,0 +1,20 @@
+# make_video.py 依赖包
+# 安装: pip install -r requirements.txt
+
+# ========== 必须 (缺一不可) ==========
+requests
+psycopg2-binary
+pyJianYingDraft
+
+# ========== 强烈建议 ==========
+psutil
+pywin32
+
+# ========== 可选 (增强功能，建议安装) ==========
+# 弹窗检测和自动关闭功能
+pyautogui
+uiautomation
+opencv-python  # 图片匹配功能需要
+
+# 键盘操作（备用）
+keyboard

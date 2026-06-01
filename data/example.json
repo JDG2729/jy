@@ -1,0 +1,55 @@
+{
+  "metadata": {
+    "total_records": 1,
+    "success_count": 1,
+    "generated_at": "2026-01-13T14:51:18"
+  },
+  "materials": [
+    {
+      "index": 0,
+      "original_record": {
+        "title": "示例标题",
+        "content_type": "养生",
+        "fengge": "",
+        "task_id": "sample_task_001"
+      },
+      "generated_material": {
+        "fengmian": [
+          "https://example.com/cover.png"
+        ],
+        "langdu": [
+          "https://example.com/audio1.mp3",
+          "https://example.com/audio2.mp3"
+        ],
+        "tupian": [
+          "https://example.com/scene_01.jpg",
+          "https://example.com/scene_02.jpg"
+        ],
+        "zimu": [
+          "这是一段示例字幕内容一",
+          "这是一段示例字幕内容二"
+        ],
+        "beijing_pic": [
+          "https://example.com/background.jpg"
+        ],
+        "yn_koutu": "no",
+        "content": [
+          {
+            "scene_number": 1,
+            "segments": [
+              "字幕一",
+              "字幕二"
+            ]
+          },
+          {
+            "scene_number": 2,
+            "segments": [
+              "字幕三",
+              "字幕四"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
